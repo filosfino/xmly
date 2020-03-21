@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.douban.com/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+click = "*"
+aiohttp = "*"
+
+[requires]
+python_version = "3.8.2"
+
+[scripts]
+download = "python src/main.py "
